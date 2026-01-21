@@ -1,14 +1,15 @@
-
-import './App.css';
-import Places from './component/Places';
-import React from 'react';
-import Jewellery from './component/Jewellery';
+import "./App.css";
+import Places from "./component/Places";
+import React from "react";
+import Jewellery from "./component/Jewellery";
+import Foods from "./component/Foods";
 
 function App() {
   return (
     <div className="App">
-     <Places/>
-     <Jewellery/>
+      <Foods />
+      <Places />
+      <Jewellery />
     </div>
   );
 }
